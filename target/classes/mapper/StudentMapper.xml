@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhang.jiwei.dao.StudentDao">
+
+    <sql id="column">
+        id,name,contact,telephone,email,remark,score
+    </sql>
+
+    <select id="getStudentById" parameterType="int" resultType="Student">
+        select
+        <include refid="column"/>
+        from ceshi3 where id=#{id}
+    </select>
+</mapper>
