@@ -9,3 +9,4 @@ mvc/src/test/java/com.zhang.jiwei/controller/
 mvc/target/
 /logs/info.log
 /logs/warn.log
+/.idea/workspace.xml

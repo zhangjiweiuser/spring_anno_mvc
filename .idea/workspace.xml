@@ -2,172 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff379e7-88ec-4a8f-8d49-d65f77be472c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/config/SpringConfig.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/classes/com/zhang/jiwei/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service/target/spring_anno_mvc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/config/SpringConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/BatchTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/HelloTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/StringTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/UserServiceTestNG2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/UserServiceTestNG3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/UserServiceTestNG4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/UserServiceTestNG5.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/UserServiceTestNG6.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/UserServiceTestNG7.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/User.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/StartUp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/config/DaoConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/config/MvcConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/config/MybatisConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/config/ServiceConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/config/SpringConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/converter/JsonHttpMessageConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/dao/StudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/entity/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/entity/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/inteceptor/CharInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/jedis/RedisMessageListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/jedis/RedisPublish.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/jedis/RedisServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/service/StudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/service/impl/StudentServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/zhang/jiwei/service/impl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/redis.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/StartUp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/config/DaoConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/config/MvcConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/config/MybatisConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/config/ServiceConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/config/SpringConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/converter/JsonHttpMessageConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/dao/StudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/entity/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/entity/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/inteceptor/CharInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/jedis/RedisMessageListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/jedis/RedisPublish.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/jedis/RedisServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/service/StudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/service/impl/StudentServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/com/zhang/jiwei/service/impl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/log4j2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/mapper/StudentMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/classes/redis.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/fastjson-1.2.43.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jedis-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jetty-http-9.4.8.v20171121.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jetty-io-9.4.8.v20171121.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jetty-security-9.4.8.v20171121.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jetty-server-9.4.8.v20171121.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jetty-servlet-9.4.8.v20171121.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jetty-util-9.4.8.v20171121.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jetty-webapp-9.4.8.v20171121.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/jetty-xml-9.4.8.v20171121.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/log4j-api-2.10.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/log4j-core-2.10.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/log4j-slf4j-impl-2.10.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-aop-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-beans-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-context-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-context-support-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-core-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-data-commons-1.13.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-data-keyvalue-1.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-data-redis-1.8.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-expression-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-oxm-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-tx-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-web-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/lib/spring-webmvc-4.3.13.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/spring_anno_mvc/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/User.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/BatchTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/HelloTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/StringTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/StudentServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/UserServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/UserServiceTest2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/UserServiceTestNG.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/UserServiceTestNG2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/UserServiceTestNG3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/UserServiceTestNG4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/UserServiceTestNG5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/UserServiceTestNG6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/zhang/jiwei/service/UserServiceTestNG7.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/spring_anno_mvc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_anno_mvc_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/test.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12/info-2017-12-18-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12/info-2017-12-19-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12/info-2017-12-23-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01/info-2018-01-03-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01/info-2018-01-05-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01/warn-2018-01-05-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-03/info-2018-03-29-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/info.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/warn.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/info.log" afterPath="$PROJECT_DIR$/logs/info.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/warn.log" afterPath="$PROJECT_DIR$/logs/warn.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/service.iml" afterPath="$PROJECT_DIR$/service/service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring_anno_mvc.iml" afterPath="$PROJECT_DIR$/spring_anno_mvc.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/StartUp.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/StartUp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/config/DaoConfig.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/config/DaoConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/config/MvcConfig.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/config/MvcConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/config/MybatisConfig.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/config/MybatisConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/config/ServiceConfig.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/config/ServiceConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/controller/UserController.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/controller/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/converter/JsonHttpMessageConverter.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/converter/JsonHttpMessageConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/dao/StudentDao.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/dao/StudentDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/dao/UserDao.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/dao/UserDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/entity/Student.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/entity/Student.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/entity/User.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/entity/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/initializer/WebInitializer.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/initializer/WebInitializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/inteceptor/CharInterceptor.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/inteceptor/CharInterceptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/jedis/RedisMessageListener.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/jedis/RedisMessageListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/jedis/RedisPublish.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/jedis/RedisPublish.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/jedis/RedisServer.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/jedis/RedisServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/service/StudentService.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/service/StudentService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/service/UserService.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/service/impl/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/service/impl/StudentServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhang/jiwei/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/service/impl/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/mvc/src/main/resources/jdbc.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/mvc/src/main/resources/log4j2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" afterPath="$PROJECT_DIR$/mvc/src/main/resources/mapper/StudentMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/mvc/src/main/resources/redis.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/StudentServiceTest.java" afterPath="$PROJECT_DIR$/mvc/src/test/java/com.zhang.jiwei/service/StudentServiceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/UserServiceTest.java" afterPath="$PROJECT_DIR$/mvc/src/test/java/com.zhang.jiwei/service/UserServiceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/UserServiceTest2.java" afterPath="$PROJECT_DIR$/mvc/src/test/java/com.zhang.jiwei/service/UserServiceTest2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/zhang/jiwei/service/UserServiceTestNG.java" afterPath="$PROJECT_DIR$/mvc/src/test/java/com.zhang.jiwei/service/UserServiceTestNG.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -189,7 +36,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1872">
+            <state relative-caret-position="0">
               <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
@@ -260,40 +107,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/error.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="72">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/src/main/java/com/zhang/jiwei/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#674#675#0" expanded="false" />
-                <element signature="e#728#729#0" expanded="false" />
-                <element signature="e#834#835#0" expanded="false" />
-                <element signature="e#861#862#0" expanded="false" />
-                <element signature="e#1176#1177#0" expanded="false" />
-                <element signature="e#1218#1219#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -907,7 +726,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1622,7 +1441,7 @@
       <workItem from="1522294842223" duration="10409000" />
       <workItem from="1522371524397" duration="10513000" />
       <workItem from="1522546124790" duration="7197000" />
-      <workItem from="1522554053728" duration="428000" />
+      <workItem from="1522554053728" duration="886000" />
     </task>
     <servers />
   </component>
@@ -1659,7 +1478,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89422000" />
+    <option name="totallyTimeSpent" value="89880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1672,7 +1491,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1690,12 +1509,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33519554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23910615" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5798883" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5798883" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1833,7 +1652,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhang/jiwei/StartUp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhang/jiwei/jedis/RedisServer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhang/jiwei/jedis/RedisMessageListener.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhang/jiwei/jedis/RedisPublish.java" />
@@ -2000,7 +1818,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1872">
+        <state relative-caret-position="0">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
@@ -2050,10 +1868,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/test.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="72">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
