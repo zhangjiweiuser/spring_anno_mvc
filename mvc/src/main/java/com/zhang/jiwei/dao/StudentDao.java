@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Param;
  * @author jiwei.zhang
  * @DATE 2018-03-30 下午 15:18
  */
-public interface StudentDao {
+public interface  StudentDao {
 
     Student getStudentById(@Param("id") int id);
 }

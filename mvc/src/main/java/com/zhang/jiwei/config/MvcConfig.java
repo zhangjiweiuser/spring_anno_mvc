@@ -6,6 +6,7 @@ import java.util.List;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 import com.zhang.jiwei.converter.JsonHttpMessageConverter;
 import com.zhang.jiwei.inteceptor.CharInterceptor;
+import com.zhang.jiwei.inteceptor.DataSourceInterceptor;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
@@ -44,11 +45,11 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
         configurer.enable();
     }
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new CharInterceptor()).addPathPatterns("/**");
-        super.addInterceptors(registry);
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(new CharInterceptor()).addPathPatterns("/**");
+//        super.addInterceptors(registry);
+//    }
 
 
 

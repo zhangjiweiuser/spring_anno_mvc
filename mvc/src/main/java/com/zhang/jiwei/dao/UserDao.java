@@ -1,6 +1,7 @@
 package com.zhang.jiwei.dao;
 
 import com.zhang.jiwei.entity.User;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @author jiwei.zhang
@@ -8,5 +9,7 @@ import com.zhang.jiwei.entity.User;
  */
 public interface UserDao {
 
-    User queryUserById(int id);
+    User queryUserById(@Param("id") int id);
+
+    int insertUser(@Param("name") String name,@Param("age") int age);
 }
