@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+/spring_anno_mvc.iml
+/mvc/mvc.iml
+/logs/error.log
+.gitignore
+.idea/*
+mvc/src/main/webapp/
+mvc/src/test/java/com.zhang.jiwei/controller/
+mvc/target/
+/logs/info.log
+/logs/warn.log
