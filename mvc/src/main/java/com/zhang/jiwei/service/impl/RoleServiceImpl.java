@@ -1,6 +1,6 @@
 package com.zhang.jiwei.service.impl;
 
-import com.zhang.jiwei.dao.RoleDao;
+import com.zhang.jiwei.slavedao.RoleDao;
 import com.zhang.jiwei.entity.Role;
 import com.zhang.jiwei.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;

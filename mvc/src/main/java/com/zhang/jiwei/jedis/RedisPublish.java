@@ -1,12 +1,7 @@
 package com.zhang.jiwei.jedis;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
 import com.zhang.jiwei.config.DaoConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.data.redis.connection.RedisConnection;
-import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 
 /**

@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @DATE 2017/12/18 0018
  */
 @Configuration
-@EnableAspectJAutoProxy
+@EnableAspectJAutoProxy(proxyTargetClass = true)
 @EnableTransactionManagement
 @Import({ServiceConfig.class, MybatisConfig.class})
 public class SpringConfig {

@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.zhang.jiwei.config.MvcConfig;
 import com.zhang.jiwei.config.SpringConfig;
 import com.zhang.jiwei.controller.UserController;
-import com.zhang.jiwei.dao.UserDao;
+import com.zhang.jiwei.masterdao.UserDao;
 import com.zhang.jiwei.entity.User;
 import com.zhang.jiwei.service.UserService;
 import com.zhang.jiwei.service.impl.UserServiceImpl;

@@ -5,23 +5,19 @@ package com.zhang.jiwei.datasource;
  */
 public class DataSourceManager {
 
-    private static final ThreadLocal<DataSources> dataSources = new ThreadLocal(){
+    //    private static final ThreadLocal<DataSources> dataSources = new ThreadLocal<>();
+    private static final ThreadLocal<DataSources> dataSources = new ThreadLocal() {
         @Override
         protected DataSources initialValue() {
             return DataSources.MASTER;
         }
     };
 
-
-    public static DataSources get(){
+    public static DataSources get() {
         return dataSources.get();
     }
 
-    public static void set(DataSources dataSourcesType){
+    public static void set(DataSources dataSourcesType) {
         dataSources.set(dataSourcesType);
-    }
-
-    public static void reset(){
-        dataSources.set(DataSources.MASTER);
     }
 }

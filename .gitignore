@@ -4,7 +4,6 @@
 /logs/error.log
 .gitignore
 .idea/*
-mvc/src/main/webapp/
 mvc/src/test/java/com.zhang.jiwei/controller/
 mvc/target/
 /logs/info.log

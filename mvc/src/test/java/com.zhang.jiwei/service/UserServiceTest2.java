@@ -1,7 +1,7 @@
 package java.com.zhang.jiwei.service;
 
 import com.zhang.jiwei.config.SpringConfig;
-import com.zhang.jiwei.dao.UserDao;
+import com.zhang.jiwei.masterdao.UserDao;
 import com.zhang.jiwei.entity.User;
 import com.zhang.jiwei.service.UserService;
 import com.zhang.jiwei.service.impl.UserServiceImpl;

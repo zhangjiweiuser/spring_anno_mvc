@@ -1,12 +1,10 @@
 package com.zhang.jiwei.service.impl;
 
-import com.zhang.jiwei.dao.RoleDao;
-import com.zhang.jiwei.dao.UserDao;
-import com.zhang.jiwei.datasource.DataSourceManager;
-import com.zhang.jiwei.datasource.DataSources;
 import com.zhang.jiwei.entity.Role;
 import com.zhang.jiwei.entity.User;
+import com.zhang.jiwei.masterdao.UserDao;
 import com.zhang.jiwei.service.UserService;
+import com.zhang.jiwei.slavedao.RoleDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,15 +38,13 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    @Transactional(rollbackFor = {Exception.class})
+    @Transactional(rollbackFor = Exception.class,transactionManager = "transactionManager")
     public int update(String name) {
-        DataSourceManager.set(DataSources.MASTER);
-        userDao.insertUser(name, (int) (Math.random()*30));
+        userDao.insertUser(name, (int) (Math.random() * 30));
 
-        if(name.equals("san")){
+        if (name.equals("san")) {
             throw new RuntimeException();
         }
-        DataSourceManager.set(DataSources.SLAVE);
         Role role = new Role();
         role.setRoleName("jiaose");
         int num = roleDao.insertRole(role);

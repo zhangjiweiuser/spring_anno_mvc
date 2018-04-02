@@ -1,4 +1,4 @@
-package com.zhang.jiwei.dao;
+package com.zhang.jiwei.masterdao;
 
 import com.zhang.jiwei.entity.User;
 import org.apache.ibatis.annotations.Param;
