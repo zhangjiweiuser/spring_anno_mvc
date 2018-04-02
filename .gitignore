@@ -9,3 +9,7 @@ mvc/target/
 /logs/info.log
 /logs/warn.log
 /.idea/workspace.xml
+/mvc/log/
+/mvc/logs/
+/mvc/txlog2.log
+/mvc/txlog.lck

@@ -1,9 +1,7 @@
 package com.zhang.jiwei.service;
 
-import com.alibaba.fastjson.JSONObject;
 import com.zhang.jiwei.config.SpringConfig;
-import com.zhang.jiwei.entity.Student;
-import com.zhang.jiwei.service.StudentService;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,20 +9,18 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * @author jiwei.zhang
- * @DATE 2018-03-30 下午 15:55
+ * Created by zhangjiwei on 2018/4/2.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {SpringConfig.class})
-public class StudentServiceTest {
+public class MultiDataSourceTest {
 
     @Autowired
-    private StudentService studentService;
+    private UserService userService;
 
     @Test
-    public void getStudentByIdTest(){
-        Student student = studentService.getStudentById(1);
-        System.out.println(JSONObject.toJSONString(student));
-        System.out.println(student.toString());
+    public void insertTest() {
+        int num = userService.update("san");
+        Assert.assertTrue(num == 1);
     }
 }

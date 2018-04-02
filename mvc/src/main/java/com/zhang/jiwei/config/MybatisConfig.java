@@ -1,30 +1,22 @@
 package com.zhang.jiwei.config;
 
-import java.util.Map;
-import java.util.Properties;
-import java.util.concurrent.ConcurrentHashMap;
-
-import javax.sql.DataSource;
-import javax.transaction.NotSupportedException;
-import javax.transaction.SystemException;
-
 import com.alibaba.druid.pool.xa.DruidXADataSource;
 import com.atomikos.icatch.jta.UserTransactionImp;
 import com.atomikos.icatch.jta.UserTransactionManager;
 import com.atomikos.jdbc.AtomikosDataSourceBean;
-import com.zhang.jiwei.datasource.DataSource.Type;
-import com.zhang.jiwei.datasource.DataSources;
-import com.zhang.jiwei.datasource.DynamicRoutingDataSource;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.context.EnvironmentAware;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.transaction.jta.JtaTransactionManager;
+
+import javax.transaction.NotSupportedException;
+import javax.transaction.SystemException;
+import java.util.Properties;
 
 /**
  * @author jiwei.zhang
@@ -76,12 +68,12 @@ public class MybatisConfig implements EnvironmentAware {
 //        dataSourceBean.setXaDataSourceClassName("com.alibaba.druid.pool.xa.DruidXADataSource");
         dataSourceBean.setXaDataSourceClassName("com.mysql.cj.jdbc.MysqlXADataSource");
         dataSourceBean.setUniqueResourceName("masterjta");
-//        dataSourceBean.setXaDataSource(dataSource);
-        Properties properties = new Properties();
-        properties.setProperty("url",environment.getProperty("master.url"));
-        properties.setProperty("user",environment.getProperty("master.jdbc.username"));
-        properties.setProperty("password",environment.getProperty("master.password"));
-        dataSourceBean.setXaProperties(properties);
+        dataSourceBean.setXaDataSource(dataSource);
+//        Properties properties = new Properties();
+//        properties.setProperty("url",environment.getProperty("master.url"));
+//        properties.setProperty("user",environment.getProperty("master.jdbc.username"));
+//        properties.setProperty("password",environment.getProperty("master.password"));
+//        dataSourceBean.setXaProperties(properties);
         dataSourceBean.setMaintenanceInterval(28000);
         return dataSourceBean;
     }
@@ -92,12 +84,12 @@ public class MybatisConfig implements EnvironmentAware {
 //        dataSourceBean.setXaDataSourceClassName("com.alibaba.druid.pool.xa.DruidXADataSource");
         dataSourceBean.setXaDataSourceClassName("com.mysql.cj.jdbc.MysqlXADataSource");
         dataSourceBean.setUniqueResourceName("slavejta");
-//        dataSourceBean.setXaDataSource(slaveDataSource);
-        Properties properties = new Properties();
-        properties.setProperty("url",environment.getProperty("slave.url"));
-        properties.setProperty("user",environment.getProperty("slave.jdbc.username"));
-        properties.setProperty("password",environment.getProperty("slave.password"));
-        dataSourceBean.setXaProperties(properties);
+        dataSourceBean.setXaDataSource(slaveDataSource);
+//        Properties properties = new Properties();
+//        properties.setProperty("url",environment.getProperty("slave.url"));
+//        properties.setProperty("user",environment.getProperty("slave.jdbc.username"));
+//        properties.setProperty("password",environment.getProperty("slave.password"));
+//        dataSourceBean.setXaProperties(properties);
         dataSourceBean.setMaintenanceInterval(28000);
         return dataSourceBean;
     }
@@ -174,12 +166,6 @@ public class MybatisConfig implements EnvironmentAware {
         return configurer;
     }
 
-//    @Bean
-//    public DataSourceTransactionManager dataSourceTransactionManager(DataSource routingDataSource) {
-//        DataSourceTransactionManager manager = new DataSourceTransactionManager();
-//        manager.setDataSource(routingDataSource);
-//        return manager;
-//    }
 
     @Bean
     public UserTransactionManager userTransactionManager() throws SystemException {

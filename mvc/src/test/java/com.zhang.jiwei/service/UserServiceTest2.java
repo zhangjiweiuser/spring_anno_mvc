@@ -1,4 +1,4 @@
-package java.com.zhang.jiwei.service;
+package com.zhang.jiwei.service;
 
 import com.zhang.jiwei.config.SpringConfig;
 import com.zhang.jiwei.masterdao.UserDao;
